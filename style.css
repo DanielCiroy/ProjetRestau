@@ -1,0 +1,691 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+  
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/tissu-noir-assiette-gaufres.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    
+}
+
+.section-nav{
+    width: calc(100%/2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.section-nav nav-left, nav-right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+.nav-left a, .nav-right a{
+    color: rgb(33, 30, 30);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Assistant',sans serif;
+    margin: 0 30px;
+   
+}
+
+.section-nav a:hover{
+    color: orangered;
+}
+
+.nav-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.nav-center img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.header-content .titre {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+.header-content .titre span:nth-child(2){
+    color: orangered;
+}
+
+.header-content .desc{
+    color: #ffff;
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.header-content .btn{
+    color: #fff;
+    background-color: orangered;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-family: 'Assistant',sans-serif;
+}
+
+.header-content .btn:hover{
+    background: #ffff;
+    color: orangered;
+}
+
+
+
+.section-offres{
+    width: 100%;
+    min-height: 500px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   gap: 30px;
+
+}
+
+.meal{
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #282828;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid transparent;
+    transition: all 0.5s;
+}
+
+.meal:hover{
+    border-bottom: orangered;
+}
+
+.meal a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.meal a img{
+    width: 200px;
+    height: 200px;
+}
+
+.meal .meal-name{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'kaushan + script',cursive;
+    color: #282828;
+    text-align: center;
+
+}
+
+
+.section-offre2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 6%;
+}
+
+.offre-head1{
+    color: orangered;
+    font-family: 'kaushan script',sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.offre-head2{
+    color: #282828;
+    font-family: 'kaushan + script',cursive;
+    font-size: 43px;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+
+}
+
+.offre-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.offre-card{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.offre-card img{
+    width: 250px;
+    height: 250px;
+}
+
+.offre-name{
+    color: #282828;
+    font-family: 'Assistant',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.offre-description{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    color: #797979;
+    font-family:'Assistant', serif;
+    font-size: 17px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+
+}
+.off{
+    font-family:'Assistant', serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.2rem;
+    color: #ffff;
+    background-color: orangered;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('images/rese5.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.menu-titre1{
+    color: orangered;
+    font-family:'kaushan script', serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+.menu-titre2{
+    color: #ffff;
+    font-family: 'kaushan + script',cursive;
+    font-size: 43px;
+    font-weight: 550;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.menu-container{
+    width: 60%;
+    height: 130vh;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.menu-card{
+    width: 80%;
+    height: 25%;
+    padding: 2%;
+    border-bottom: 1px solid orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.menu-card-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+}
+
+.menu-name{
+    margin-bottom: 12px;
+    color: #282828;
+    font-family:'Assistant' serif;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.menu-desc{
+    color: #797979;
+    font-family: 'Assistant',sans-serif;
+    font-size: 17px;
+
+}
+
+.menu-prix{
+    margin-top: 12px;
+    color:orangered;
+    font-family:'Assistant' serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.menu-card img{
+    width: 120px;
+    height: 120px;
+    background:#eeee;
+    border-radius: 50%;
+}
+
+.reservation{
+    width: 100%;
+    min-height: 100vh;
+    background:#f8f8f8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.reservation-container{
+    width: 80%;
+    height: 90vh;
+    background-color: #ffff;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.time-container{
+    width: 35%;
+    height: 100%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.times{
+    width: 80%;
+    height: 80%;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.time-section{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.time{
+    color: #000;
+    font-family:'kaushan script', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.open{
+    color: #f8f8f8;
+    font-family: "Assistant", sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+
+}
+
+.day{
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Assistant", sans-serif;
+    font-weight: bold;
+    margin-bottom: 12px;
+    
+
+}
+
+.hour{
+    color: #f8f8f8;
+    font-family: "Assistant", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.phone{
+    color: #fff;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.booking-container{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.booking-heading1{
+    color: orangered;
+    font-family: 'Kaushan script', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;  
+}
+
+.booking-heading2{
+    color: #000;
+    font-family: 'kaushan + script',cursive;
+    font-size: 62px;
+    font-weight: 550;
+    text-transform: capitalize;  
+    margin-bottom: 80px;
+
+}
+
+.form-container{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.booking-input{
+    width: calc(100%/3 - 20px);
+    height: 30px;
+    padding: 20px 0;
+    color: #797979;
+    border: none;
+    border-bottom: 1px solid #282828;
+
+}
+.booking-input::placeholder{
+    color: #797979;
+    font-size: 17px;
+}
+
+.booking-container .btn{
+    color: #fff;
+    background-color: orangered;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 12px 18px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-family: 'Assistant',sans-serif;
+
+}
+
+.contact{
+    width: 100%;
+    height: 120vh;
+    background-image: url('images/img-form.jpg');
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+
+
+.contact-titre1{
+    color: orangered;
+    font-family:'Kaushan script',sans serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 100px;
+  
+}
+
+.contact-titre2{
+    color: #282828;
+    font-family: 'kaushan + script',cursive;
+    font-size: 43px;
+    font-weight: 550;
+    text-transform: capitalize;
+   
+}
+
+.contact-form{
+    padding: 75px 50px;
+    padding-bottom: 0;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0,0,0, 0.8);
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+   
+    
+}
+.contact-form input{
+    width: 90%;
+    padding: 15px 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contact-form .btn{
+    margin: 30px 0;
+    color: #fff;
+    background-color: orangered;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 9px 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Assistant',sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.contact-form .bouton{
+    margin: 40px 0;
+}
+
+.contact-form h2{
+    color: #282828;
+    font-family: 'Assistant',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.contact-form input:nth-child(4){
+    padding: 30px 10px;
+}
+
+.container-descr{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+   
+}
+
+footer{
+    padding: 50px;
+    padding-bottom: 0;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0,0,0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
