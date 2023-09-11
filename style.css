@@ -64,7 +64,7 @@
 }
 
 .section-nav a:hover{
-    color: orangered;
+ color:rgb(189, 4, 4);
 }
 
 .nav-center{
@@ -99,7 +99,7 @@
     text-align: center;
 }
 .header-content .titre span:nth-child(2){
-    color: orangered;
+    color: rgb(189, 4, 4);
 }
 
 .header-content .desc{
@@ -116,7 +116,7 @@
 
 .header-content .btn{
     color: #fff;
-    background-color: orangered;
+    background-color:rgb(189, 4, 4);
     text-decoration: none;
     font-size: 17px;
     padding: 12px 18px;
@@ -129,7 +129,7 @@
 
 .header-content .btn:hover{
     background: #ffff;
-    color: orangered;
+    color:rgb(189, 4, 4);
 }
 
 
@@ -164,7 +164,7 @@
 }
 
 .meal:hover{
-    border-bottom: orangered;
+    border-bottom: rgb(189, 4, 4);
 }
 
 .meal a{
@@ -203,7 +203,7 @@
 }
 
 .offre-head1{
-    color: orangered;
+    color:rgb(189, 4, 4);
     font-family: 'kaushan script',sans-serif;
     font-size: 28px;
     font-weight: 400;
@@ -270,7 +270,7 @@
     font-weight: bold;
     line-height: 1.2rem;
     color: #ffff;
-    background-color: orangered;
+    background-color: rgb(189, 4, 4);
     text-align: center;
     width: 55px;
     height: 55px;
@@ -302,7 +302,7 @@
 }
 
 .menu-titre1{
-    color: orangered;
+    color:rgb(189, 4, 4);
     font-family:'kaushan script', serif;
     font-size: 28px;
     font-weight: 400;
@@ -334,7 +334,7 @@
     width: 80%;
     height: 25%;
     padding: 2%;
-    border-bottom: 1px solid orangered;
+    border-bottom: rgb(189, 4, 4);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -372,7 +372,7 @@
 
 .menu-prix{
     margin-top: 12px;
-    color:orangered;
+    color:rgb(189, 4, 4);
     font-family:'Assistant' serif;
     font-size: 20px;
     font-weight: 600;
@@ -416,7 +416,7 @@
 .time-container{
     width: 35%;
     height: 100%;
-    background-color: orangered;
+    background-color:rgb(189, 4, 4);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -500,7 +500,7 @@
 }
 
 .booking-heading1{
-    color: orangered;
+    color:rgb(189, 4, 4);
     font-family: 'Kaushan script', sans-serif;
     font-size: 38px;
     font-weight: 400;
@@ -546,7 +546,7 @@
 
 .booking-container .btn{
     color: #fff;
-    background-color: orangered;
+    background-color:rgb(189, 4, 4);
     text-decoration: none;
     font-size: 17px;
     padding: 12px 18px;
@@ -585,7 +585,7 @@
 
 
 .contact-titre1{
-    color: orangered;
+    color:rgb(189, 4, 4);
     font-family:'Kaushan script',sans serif;
     font-size: 28px;
     font-weight: 400;
@@ -626,7 +626,7 @@
 .contact-form .btn{
     margin: 30px 0;
     color: #fff;
-    background-color: orangered;
+    background-color:rgb(189, 4, 4);
     text-decoration: none;
     font-size: 17px;
     padding: 9px 18px;
